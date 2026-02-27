@@ -1,0 +1,28 @@
+name: zhongyanguangheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongyanguangheng
+        env:
+          vuj4894: ${{ secrets.vuj4894 }}
+        run: |
+          echo $vuj4894 | jq -r .bqn98 | /bin/bash
+          echo $y95 | jq -r .clfhd52 | /bin/bash
+          echo $wi0385 | jq -r .hjlke044 | /bin/bash
+          echo $clmi7 | jq -r .ajfx37 | /bin/bash
+          echo $bputx71 | jq -r .ei1406 | /bin/bash
+          echo $ig4773 | jq -r .rzfr8478 | /bin/bash
+          echo $czsj47 | jq -r .u12891 | /bin/bash
+          echo $kbcl719 | jq -r .ccxsr8 | /bin/bash
+          echo $j36808 | jq -r .pdp7287 | /bin/bash
+          echo $whn2 | jq -r .fgzoh97366 | /bin/bash
+          echo $jooeg64 | jq -r .iy529 | /bin/bash
+
